@@ -1,0 +1,234 @@
++PROG AQUA urs:1
+HEAD 'Materialangabe'
+PAGE UNII 0
+CTRL REST 1
+
+// -------------------------------- User Text -------------------------------------
+
+$----------------------------------------------------------------------------------
+!*! Angabe der Norm
+NORM OEN en199X-200X unit 0 !
+$----------------------------------------------------------------------------------
+!*! Umfang der Ausgabe
+echo full extr
+$----------------------------------------------------------------------------------
+!*! Beton
+CONC NO 1  TYPE c 30N           titl 'Beton C30/37 Normalerhärtend'
+!
+$----------------------------------------------------------------------------------
+!*! Bewehrung
+STEE NO 101 TYPE b 550b titl 'Bewehrung B550B'
+
+
+
+
+END
+
++PROG AQUA urs:2
+HEAD
+PAGE UNII 0
+CTRL REST 1
+
+// -------------------------------- Sections --------------------------------------
+SECT 2 MNO 1 TITL 'Decke'
+
+POLY TYPE O
+VERT '10' -0.5 0.15000000596046448
+VERT '20' -0.5 -0.15000000596046448
+VERT '30' 0.5 -0.15000000596046448
+VERT '40' 0.5 0.15000000596046448
+VERT '10' -0.5 0.15000000596046448
+
+RF NO '100' Y -0.4699999988079071 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '101' Y -0.33571428060531616 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '102' Y -0.20142856240272522 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '103' Y -0.06714282929897308 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '104' Y 0.06714287400245667 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '105' Y 0.2014285773038864 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '106' Y 0.33571431040763855 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '107' Y 0.4699999988079071 Z 0.12000000476837158 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '200' Y -0.4699999988079071 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '201' Y -0.33571428060531616 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '202' Y -0.20142856240272522 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '203' Y -0.06714282929897308 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '204' Y 0.06714287400245667 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '205' Y 0.2014285773038864 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '206' Y 0.33571431040763855 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '207' Y 0.4699999988079071 Z -0.12000000476837158 LAY '2' MRF 101 TORS ACTI D 10
+
+SECT 1 MNO 1 TITL 'Wand'
+
+POLY TYPE O
+VERT '10' -0.5 0.125
+VERT '20' -0.5 -0.125
+VERT '30' 0.5 -0.125
+VERT '40' 0.5 0.125
+VERT '10' -0.5 0.125
+
+RF NO '100' Y -0.4749999940395355 Z 0.10000000149011612 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '101' Y -0.3392857015132904 Z 0.10000000149011612 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '102' Y -0.20357143878936768 Z 0.10000000894069672 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '103' Y -0.06785713136196136 Z 0.09999999403953552 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '104' Y 0.06785717606544495 Z 0.10000000149011612 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '105' Y 0.20357145369052887 Z 0.10000000149011612 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '106' Y 0.3392857015132904 Z 0.10000000149011612 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '107' Y 0.4749999940395355 Z 0.10000000149011612 LAY '1' MRF 101 TORS ACTI D 10
+RF NO '200' Y -0.4749999940395355 Z -0.10000000149011612 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '201' Y -0.3392857015132904 Z -0.10000000149011612 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '202' Y -0.20357143878936768 Z -0.10000000894069672 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '203' Y -0.06785713136196136 Z -0.09999999403953552 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '204' Y 0.06785717606544495 Z -0.10000000149011612 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '205' Y 0.20357145369052887 Z -0.10000000149011612 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '206' Y 0.3392857015132904 Z -0.10000000149011612 LAY '2' MRF 101 TORS ACTI D 10
+RF NO '207' Y 0.4749999940395355 Z -0.10000000149011612 LAY '2' MRF 101 TORS ACTI D 10
+
+END
+
++PROG SOFIMSHC urs:3
+HEAD Model
+PAGE UNII 0
+SYST 3D GDIR NEGZ GDIV -1000
+CTRL INIT 7
+CTRL TOLG 0.010000
+CTRL MESH 1
+CTRL HMIN 1.0000
+CTRL TOPO XFLG 0
+CTRL NODE 1000
+
+// -------------------------------- Structural Elements ---------------------------
+
+// ------------------------ Structural Points ---------------------
+SPT 1 X 0.00000000 0.00000000 0.00000000 FIX PXPYPZMXMYMZ
+SPT 2 X 0.00000000 0.00000000 3.15000000
+SPT 3 X 3.00000000 0.00000000 3.15000000
+SPT 4 X 6.00000000 0.00000000 3.15000000 FIX PZ
+
+// ------------------------ Structural Lines ----------------------
+SLN 101 GRP 1 SNO 1 DRX 0.000000 0.000000 -1.000000
+ SLNB X1 0.00000000 0.00000000 0.00000000  X2 0.00000000 0.00000000 3.15000000
+SLN 102 GRP 1 SNO 2 DRX 0.000000 0.000000 -1.000000
+ SLNB X1 0.00000000 0.00000000 3.15000000  X2 3.00000000 0.00000000 3.15000000
+SLN 103 GRP 1 SNO 2 DRX 0.000000 0.000000 -1.000000
+ SLNB X1 3.00000000 0.00000000 3.15000000  X2 6.00000000 0.00000000 3.15000000
+
+END
+
++PROG SOFILOAD urs:4
+HEAD
+PAGE UNII 0
+
+// -------------------------------- Loads -----------------------------------------
+LC 1 TYPE G FACD 1.000 TITL 'EGW'
+
+
+LC 10 TYPE Q TITL 'Nutzlast'
+
+POIN AUTO - TYPE PZZ -50.000000 X 3.000000 0.000000 3.150000
+
+LC 20 TYPE W TITL 'Wind'
+
+LINE AUTO - TYPE PZZ -0.800000 X1 0.000000 0.000000 3.150000 X2 3.000000 0.000000 3.150000
+LINE AUTO - TYPE PZZ -0.800000 X1 3.000000 0.000000 3.150000 X2 6.000000 0.000000 3.150000
+
+LC 30 TYPE S TITL 'Schnee'
+
+LINE AUTO - TYPE PXX 1.000000 X1 0.000000 0.000000 0.000000 X2 0.000000 0.000000 3.150000
+
+END
+
++PROG ASE urs:5
+HEAD Berechnung
+PAGE UNII 0
+
+// -------------------------------- Loadcases -------------------------------------
+LC 1
+LC 10
+LC 20
+LC 30
+
+END
+
++prog maxima urs:12
+head 'Ergebniskombination'
+
+! Output control
+$echo full yes
+echo chck val full
+
+COMB 1 rare BASE - $ kombination charakteristisch
+    ACT G_1
+$        LC NO 1 TYPE G  ! man kann explizit die LF nennen oder es werden alle die mit G_1 im SOFILOAD genannt wurden genommen
+    ACT Q
+$        LC NO 10 TYPE Q
+    ACT S
+$        LC NO 20 TYPE Q
+    ACT W
+$        LC NO 30 TYPE Q
+
+let#lf 1120
+SUPP ETYP TYPE   LC   FROM  TITL EXTR=MAMI COMB=1
+! mit #define / #enddef können text blöcke definiert werden, die immer wieder verwendet werden
+! in diesem Fall wählen wir aus einer List aus, für welche Ergebnisse wollen wir, dass die Software
+! eine Ergebniskombination erstellt / ermittelt.
+#define results
+$      'spri' P   #lf+1
+$      'spri' M   #lf+3
+
+      'NODE' PX  #lf+1
+      'NODE' PY  #lf+3
+$      'NODE' PZ  #lf+5
+$      'NODE' MX  #lf+7
+$      'NODE' MY  #lf+9
+      'NODE' MZ  #lf+11
+      'NODE' UX   #lf+13
+      'NODE' UY   #lf+15
+$      'NODE' UZ   #lf+17
+$      'NODE' URX  #lf+19
+$      'NODE' URY  #lf+21
+      'NODE' URZ  #lf+23
+
+      'beam' N   #lf+1
+$      'beam' VY  #lf+3
+      'beam' VZ  #lf+5
+$      'beam' MT  #lf+7
+      'beam' MY  #lf+9
+$      'beam' MZ  #lf+11
+$      'BEAM' PTY #lf+13
+$      'BEAM' PTZ #lf+15
+
+$      'QUA*' mxx #lf+1
+$      'QUA*' myy #lf+3
+$      'QUA*' mxy #lf+5
+$      'QUA*' vx  #lf+7
+$      'QUA*' vy  #lf+9
+$      'QUA*' nxx #lf+11
+$      'QUA*' nyy #lf+13
+$      'QUA*' nxy #lf+15
+
+$      'QBED' p   #lf+1
+$      'QBED' pt  #lf+3
+#enddef
+#include results
+
+COMB 4 perm BASE - $ kombination quasi-ständig
+    ACT G_1
+    ACT Q
+    ACT S
+    ACT W
+
+let#lf 1420
+SUPP ETYP TYPE   LC   FROM  TITL EXTR=MAMI COMB=4
+#include results
+
+
+COMB 10 desi BASE -  $ kombination GZT
+    ACT G_1
+    ACT Q
+    ACT S
+    ACT W
+
+let#lf 2120
+SUPP ETYP TYPE   LC   FROM  TITL EXTR=MAMI COMB=10
+#include results
+
+end
