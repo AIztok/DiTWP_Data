@@ -1,0 +1,92 @@
+{
+  "träger": [
+    {
+      "name": "HEA120",
+      "abmessungen": {
+        "höhe": 114,
+        "breite": 120,
+        "stegdicke": 5,
+        "flanschdicke": 8,
+        "radius": 12
+      },
+      "eigenschaften": {
+        "fläche": 17.9,
+        "gewicht": 14,
+        "trägheitsmoment": {
+          "Ixx": 383,
+          "Iyy": 86.8
+        },
+        "widerstandsmoment": {
+          "Wxx": 67.2,
+          "Wyy": 14.5
+        }
+      }
+    },
+    {
+      "name": "HEA140",
+      "abmessungen": {
+        "höhe": 133,
+        "breite": 140,
+        "stegdicke": 5.5,
+        "flanschdicke": 8.5,
+        "radius": 12
+      },
+      "eigenschaften": {
+        "fläche": 21.5,
+        "gewicht": 16.9,
+        "trägheitsmoment": {
+          "Ixx": 647,
+          "Iyy": 150
+        },
+        "widerstandsmoment": {
+          "Wxx": 97.3,
+          "Wyy": 21.5
+        }
+      }
+    },
+    {
+      "name": "HEA160",
+      "abmessungen": {
+        "höhe": 152,
+        "breite": 160,
+        "stegdicke": 6,
+        "flanschdicke": 9,
+        "radius": 15
+      },
+      "eigenschaften": {
+        "fläche": 26.2,
+        "gewicht": 20.6,
+        "trägheitsmoment": {
+          "Ixx": 1040,
+          "Iyy": 241
+        },
+        "widerstandsmoment": {
+          "Wxx": 136.8,
+          "Wyy": 30.1
+        }
+      }
+    },
+    {
+      "name": "HEA200",
+      "abmessungen": {
+        "höhe": 190,
+        "breite": 200,
+        "stegdicke": 6.5,
+        "flanschdicke": 10,
+        "radius": 15
+      },
+      "eigenschaften": {
+        "fläche": 34.8,
+        "gewicht": 27.4,
+        "trägheitsmoment": {
+          "Ixx": 2080,
+          "Iyy": 521
+        },
+        "widerstandsmoment": {
+          "Wxx": 219,
+          "Wyy": 52.1
+        }
+      }
+    }
+  ]
+}
