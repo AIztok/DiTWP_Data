@@ -1,0 +1,58 @@
+[
+  {
+    "name": "HEA120",
+    "höhe": 114,
+    "breite": 120,
+    "stegdicke": 5,
+    "flanschdicke": 8,
+    "radius": 12,
+    "fläche": 17.9,
+    "gewicht": 14,
+    "Ixx": 383,
+    "Iyy": 86.8,
+    "Wxx": 67.2,
+    "Wyy": 14.5
+  },
+  {
+    "name": "HEA140",
+    "höhe": 133,
+    "breite": 140,
+    "stegdicke": 5.5,
+    "flanschdicke": 8.5,
+    "radius": 12,
+    "fläche": 21.5,
+    "gewicht": 16.9,
+    "Ixx": 647,
+    "Iyy": 150,
+    "Wxx": 97.3,
+    "Wyy": 21.5
+  },
+  {
+    "name": "HEA160",
+    "höhe": 152,
+    "breite": 160,
+    "stegdicke": 6,
+    "flanschdicke": 9,
+    "radius": 15,
+    "fläche": 26.2,
+    "gewicht": 20.6,
+    "Ixx": 1040,
+    "Iyy": 241,
+    "Wxx": 136.8,
+    "Wyy": 30.1
+  },
+  {
+    "name": "HEA200",
+    "höhe": 190,
+    "breite": 200,
+    "stegdicke": 6.5,
+    "flanschdicke": 10,
+    "radius": 15,
+    "fläche": 34.8,
+    "gewicht": 27.4,
+    "Ixx": 2080,
+    "Iyy": 521,
+    "Wxx": 219,
+    "Wyy": 52.1
+  }
+]
